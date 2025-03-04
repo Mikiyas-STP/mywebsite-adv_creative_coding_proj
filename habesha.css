@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e7f2f1;
+}
+
+.big-section {
+    background: url('https://plus.unsplash.com/premium_photo-1695297516698-fd7a320a55e5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZXRoaW9waWFuJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.each-card-section img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.navigation-bar img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.about-cuisine-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.footer-logo {
+    height: 30px;
+}
+
+#day-special {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#form-message {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: green;
+}
+
+@media (max-width: 768px) {
+    .big-section {
+        height: 60vh;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .big-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .big-section p {
+        font-size: 1.3rem;
+    }
+}
